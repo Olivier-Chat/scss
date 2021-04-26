@@ -1,0 +1,85 @@
+h1 .ring {
+    display: inline-block;
+    border-radius: 50%;
+    border: #FF5F01 2.5px solid;
+    width: 20px;
+    height: 20px;
+}
+
+h2 .ring {
+    display: inline-block;
+    border-radius: 50%;
+    border: #FCCA04 5px solid;
+    width: 40px;
+    height: 40px;
+}
+
+.ring-container {
+    position: relative;
+}
+
+.ring1 {
+    display: inline-block;
+    border-radius: 50%;
+    border: #333333 2.5px solid;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: -10px;
+}
+
+.ring2 {
+    display: inline-block;
+    border-radius: 50%;
+    border: #333333 5px solid;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+}
+
+.ring3 {
+    display: inline-block;
+    border-radius: 50%;
+    border: #333333 7.5px solid;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 30px;
+    top: -30px;
+}
+
+.ring4 {
+    display: inline-block;
+    border-radius: 50%;
+    border: #333333 10px solid;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 60px;
+    top: -40px;
+}
+
+.ring5 {
+    display: inline-block;
+    border-radius: 50%;
+    border: #333333 12.5px solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: -50px;
+}
+
+.ring6 {
+    display: inline-block;
+    border-radius: 50%;
+    border: #333333 15px solid;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 150px;
+    top: -60px;
+}

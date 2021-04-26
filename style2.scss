@@ -1,0 +1,39 @@
+$dark : #333333;
+$main :#FF5F01;
+$gold:#FCCA04;
+$width1: 20px;
+$width2: 40px;
+
+@mixin ringMaker($color,$width)
+{
+  display: inline-block;
+  border-radius: 50%;
+  border : $color $width/8 solid;
+  width: $width;
+  height: $width;
+}
+h1{
+  .ring{
+    @include ringMaker($main,$width1);
+  }
+}
+h2{
+  .ring{
+    @include ringMaker($gold,$width2);
+  }
+}
+.ring-container{
+  position :relative;
+}
+
+@for $i from 1 through 6{
+  .ring#{$i}{
+    @include ringMaker($dark, $i*20px);
+    position: absolute;
+    left: ($i - 1)*($i*5px);
+    top:$i*-10px;
+
+  }
+}
+
+
